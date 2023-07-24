@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#! /bin/bash -i
 
 ##################################################################################
 #                                                                                #
@@ -465,7 +465,6 @@ function Sair {
 
 #inicializa as variaveis para comecar o jogo
 function InitGame {
-
 	_score=0 #zera o score atual
 
 #	_coins=0 #Zera as moedas pega em jogo anterior
@@ -1094,7 +1093,7 @@ function DrawEnemy {
 
 #Função para ouvir o teclado
 function ListenKey {
-stty -icanon min 0
+stty -echo -icanon -icrnl min 0 #time 0
 	# ouve as teclas pressionadas pelo teclado
 	_key=$(dd bs=3 count=1 2>/dev/null)
 
@@ -1194,7 +1193,6 @@ stty -icanon min 0
 		SaveSettings
 		ClearScreen
 		;;
-
 	esac
 
 	
