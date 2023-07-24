@@ -529,9 +529,15 @@ function Splash {
 		_canvas[$_y]="${_edgeScreen}${_spaceScreen}${_edgeScreen}"
 
 	done
-
+	
+	if [ $_jogName = "luigi" ]; then
+		_jogInitial="L"
+	else
+		_jogInitial="M"
+	fi
+	
 	_canvas[12]="${_edgeScreen}${_spaceIni}                              █████                                             ${_spaceFim}${_edgeScreen}"
-	_canvas[13]="${_edgeScreen}${_spaceIni}                             █░░░░M███                                          ${_spaceFim}${_edgeScreen}"
+	_canvas[13]="${_edgeScreen}${_spaceIni}                             █░░░░${_jogInitial}███                                          ${_spaceFim}${_edgeScreen}"
 	_canvas[14]="${_edgeScreen}${_spaceIni}                            █░░░░░░░░░█                                         ${_spaceFim}${_edgeScreen}"
 	_canvas[15]="${_edgeScreen}${_spaceIni}                            ███  █ ███                                          ${_spaceFim}${_edgeScreen}"
 	_canvas[16]="${_edgeScreen}${_spaceIni}                           █  ██ █    █       X     0${_jogLife}                          ${_spaceFim}${_edgeScreen}"
