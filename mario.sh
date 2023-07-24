@@ -1881,11 +1881,6 @@ trap HandleSigInt SIGINT
 # Carrega as configurações salva
 . .settings
 
-# Mapa do score no topo da tela
-_scoreTitle0="     MARIO                                   WORLD               TIME           "
-_scoreTitle1="     000000                 @x00              1-1                 000           "
-
-
 # Mapa de caracters do jogador mario e das montanhas de fundo
 
 _montDraw[0]=7
@@ -2543,7 +2538,11 @@ case "${1,,}" in # Lendo $1 em lowercase para permitir o usuário escrever Mario
 	exit 0
 	;;
 esac
-	
+
+
+# Mapa do score no topo da tela
+_scoreTitle0="     ${_jogName^^}                                   WORLD               TIME           "
+_scoreTitle1="     000000                 @x00              1-1                 000           "
 
 # Cria o mapa de caracters para o piso
 _piso1='░░░░██░░░░'
