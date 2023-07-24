@@ -454,6 +454,11 @@ function Sair {
 	#Restaura o terminal ao seu padrao	
 	#stty sane
 	
+	#Para musica se estiver tocando
+	if [ $_musicId ]; then
+		Stop $_musicId #Mata o processo da musica de fundo
+	fi
+	
 	# Verifica se ocorreu algum erro e imprime na tela do terminal
 	if [ "$_erro" != "" ]; then
 		echo -e $_erro
@@ -1851,7 +1856,14 @@ function ChangeSpriteEnemy {
 
 }
 
+function HandleSigInt {
+	Sair
+}
+
 # [ INICIO SCRIPT ] ----------------------------------------------------------------------------------------------------------
+
+# Configura HandleSigInt to handle Ctrl+C
+trap HandleSigInt SIGINT
 
 # Carrega as configurações salva
 . .settings
