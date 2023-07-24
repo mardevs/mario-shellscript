@@ -1868,8 +1868,6 @@ trap HandleSigInt SIGINT
 # Carrega as configurações salva
 . .settings
 
-_jogName="mario"
-
 # Mapa do score no topo da tela
 _scoreTitle0="     MARIO                                   WORLD               TIME           "
 _scoreTitle1="     000000                 @x00              1-1                 000           "
@@ -2186,6 +2184,222 @@ _marioE211='  █░░███████░░█'
 _marioE212='   ██   █████░░█'
 _marioE213='         ███ ██'
 
+_luigiD0[0]=16
+ _luigiD0[1]=""
+ _luigiD0[2]="   █████"
+ _luigiD0[3]='  █░░░░L███'
+ _luigiD0[4]=' █░░░░░░░░░█'
+ _luigiD0[5]=' ███  █ ███'
+ _luigiD0[6]='█  ██ █    █'
+ _luigiD0[7]='█  ██  █   █'
+ _luigiD0[8]=' ██   █████'
+ _luigiD0[9]='  ██     █'
+_luigiD0[10]=' █░░██░░█'
+_luigiD0[11]='█░░░░██░░█'
+_luigiD0[12]='█░░░░█████'
+_luigiD0[13]=' █   ██ ██'
+_luigiD0[14]=' █  ░░░███'
+_luigiD0[15]='  █░░░░░█'
+_luigiD0[16]='   █████'
+
+_luigiE0[0]=16
+ _luigiE0[1]=""
+ _luigiE0[2]='    █████'
+ _luigiE0[3]=' ███L░░░░█'
+ _luigiE0[4]='█░░░░░░░░░█'
+ _luigiE0[5]=' ███ █  ███'
+ _luigiE0[6]='█    █ ██  █'
+ _luigiE0[7]='█   █  ██  █'
+ _luigiE0[8]=' █████   ██'
+ _luigiE0[9]='  █     ██'
+_luigiE0[10]='   █░░██░░█'
+_luigiE0[11]='  █░░██░░░░█'
+_luigiE0[12]='  █████░░░░█'
+_luigiE0[13]='  ██ ██   █'
+_luigiE0[14]='  ███░░░  █'
+_luigiE0[15]='   █░░░░░█'
+_luigiE0[16]='    █████'
+
+_luigiD1[0]=16
+ _luigiD1[1]='     █████'
+ _luigiD1[2]='    █░░░░L███'
+ _luigiD1[3]='   █░░░░░░░░░█'
+ _luigiD1[4]='   ███  █ ███'
+ _luigiD1[5]='  █  ██ █    █'
+ _luigiD1[6]='  █  ██  █   █'
+ _luigiD1[7]='   ██   █████'
+ _luigiD1[8]='   ███     █'
+ _luigiD1[9]=' ██░░░██░░███'
+_luigiD1[10]='█  ░░░░██░░█░█'
+_luigiD1[11]='█   ░░██████░ █'
+_luigiD1[12]=' █  ████ ██ █ █'
+_luigiD1[13]='  █████████░░█'
+_luigiD1[14]=' █░░██████░░░█'
+_luigiD1[15]=' █░░░█  █░░░█'
+_luigiD1[16]='  ███    ███'
+
+_luigiE1[0]=16
+ _luigiE1[1]='     █████'
+ _luigiE1[2]='  ███L░░░░█'
+ _luigiE1[3]=' █░░░░░░░░░█'
+ _luigiE1[4]='  ███ █  ███'
+ _luigiE1[5]=' █    █ ██  █'
+ _luigiE1[6]=' █   █  ██  █'
+ _luigiE1[7]='  █████   ██'
+ _luigiE1[8]='   █     ███'
+ _luigiE1[9]='  ███░░██░░░██'
+_luigiE1[10]=' █░█░░██░░░░  █'
+_luigiE1[11]='█ ░██████░░   █'
+_luigiE1[12]='█ █ ██ ████  █'
+_luigiE1[13]=' █░░█████████'
+_luigiE1[14]=' █░░░██████░░█'
+_luigiE1[15]='  █░░░█  █░░░█'
+_luigiE1[16]='   ███    ███'
+
+_luigiF0[0]=16
+ _luigiF0[1]='    ███████'
+ _luigiF0[2]='  ██░░░L░░░██'
+ _luigiF0[3]=' █░░░░███░░░░█'
+ _luigiF0[4]='  ███████████'
+ _luigiF0[5]=' █   █   █   █'
+ _luigiF0[6]='██    ░░░    ██'
+ _luigiF0[7]=' █ █████████ █'
+ _luigiF0[8]='█ █   █░█   ██'
+ _luigiF0[9]='█  ██ █░█ ██  █'
+_luigiF0[10]=' █ █░█████░░ █ █'
+_luigiF0[11]='  █░░░░░░░░█████'
+_luigiF0[12]=' ████░░░░░█░░░█'
+_luigiF0[13]='█░░░░█░░░█░░░░█'
+_luigiF0[14]=' █░░░░█████░░░█'
+_luigiF0[15]='  █░░░█    ███'
+_luigiF0[16]='   ███'
+
+_luigiD2[0]=16
+ _luigiD2[1]='     █████  ███'
+ _luigiD2[2]='    █░░░░L██   █'
+ _luigiD2[3]='   █░░░░░░░░█  █'
+ _luigiD2[4]='   ███  █ ███░█'
+ _luigiD2[5]='  █  ██ █    ░█'
+ _luigiD2[6]='  █  ██  █   ░█'
+ _luigiD2[7]='   ██   ██████'
+ _luigiD2[8]='    ██      ░█'
+ _luigiD2[9]='  █░░░█░░░█░█'
+_luigiD2[10]=' ███░░░█░░░████'
+_luigiD2[11]='█   █░░█ ██ █░░█'
+_luigiD2[12]='█   █░██████░░░█'
+_luigiD2[13]=' █░█████████░░█'
+_luigiD2[14]='█░░░████████░░█'
+_luigiD2[15]='█░░██████   ██'
+_luigiD2[16]=' ██ ███'
+
+_luigiE2[0]=16
+ _luigiE2[1]=' ███  █████'
+ _luigiE2[2]='█   ██L░░░░█'
+ _luigiE2[3]='█  █░░░░░░░░█'
+ _luigiE2[4]=' █░███ █  ███'
+ _luigiE2[5]=' █░    █ ██  █'
+ _luigiE2[6]=' █░   █  ██  █'
+ _luigiE2[7]='  ██████   ██'
+ _luigiE2[8]='  █░      ██'
+ _luigiE2[9]='   █░█░░░█░░░█'
+_luigiE2[10]=' ████░░░█░░░███'
+_luigiE2[11]='█░░█ ██ █░░█   █'
+_luigiE2[12]='█░░░██████░█   █'
+_luigiE2[13]=' █░░█████████░█'
+_luigiE2[14]=' █░░████████░░░█'
+_luigiE2[15]='  ██   ██████░░█'
+_luigiE2[16]='         ███ ██'
+
+
+
+_luigiD00=13
+ _luigiD01="    █████"
+ _luigiD02='   █░░░░L███'
+ _luigiD03='  █░░░░░░░░░█'
+ _luigiD04='  ███  █ ███'
+ _luigiD05=' █  ██ █    █'
+ _luigiD06=' █  ██  █   █'
+ _luigiD07='  ██   █████'
+ _luigiD08='   ██     █'
+ _luigiD09='  █   ██ ██'
+_luigiD010='  █  ░░░███'
+_luigiD011='   █░░░░░█'
+_luigiD012='    █████'
+
+_luigiE00=13
+ _luigiE01='     █████'
+ _luigiE02='  ███L░░░░█'
+ _luigiE03=' █░░░░░░░░░█'
+ _luigiE04='  ███ █  ███'
+ _luigiE05=' █    █ ██  █'
+ _luigiE06=' █   █  ██  █'
+ _luigiE07='  █████   ██'
+ _luigiE08='   █     ██'
+ _luigiE09='   ██ ██   █'
+_luigiE010='   ███░░░  █'
+_luigiE011='    █░░░░░█'
+_luigiE012='     █████'
+
+_luigiD10=13
+ _luigiD11='     █████'
+ _luigiD12='    █░░░░L███'
+ _luigiD13='   █░░░░░░░░░█'
+ _luigiD14='   ███  █ ███'
+ _luigiD15='  █  ██ █    █'
+ _luigiD16='  █  ██  █   █'
+ _luigiD17='   ██   █████'
+ _luigiD18='   ███     █'
+ _luigiD19='  █ ████ ██ █'
+_luigiD110='  █████████░░█'
+_luigiD111=' █░░██████░░░█'
+_luigiD112=' █░░░█  █░░░█'
+_luigiD113='  ███    ███'
+
+_luigiE10=13
+ _luigiE11='     █████'
+ _luigiE12='  ███L░░░░█'
+ _luigiE13=' █░░░░░░░░░█'
+ _luigiE14='  ███ █  ███'
+ _luigiE15=' █    █ ██  █'
+ _luigiE16=' █   █  ██  █'
+ _luigiE17='  █████   ██'
+ _luigiE18='   █     ███'
+ _luigiE19='  █ ██ ████ █'
+_luigiE110=' █░░█████████'
+_luigiE111=' █░░░██████░░█'
+_luigiE112='  █░░░█  █░░░█'
+_luigiE113='   ███    ███'
+
+_luigiD20=13
+ _luigiD21='     █████  ███'
+ _luigiD22='    █░░░░L██   █'
+ _luigiD23='   █░░░░░░░░█  █'
+ _luigiD24='   ███  █ ███░█'
+ _luigiD25='  █  ██ █    ░█'
+ _luigiD26='  █  ██  █   ░█'
+ _luigiD27='   ██   ██████'
+ _luigiD28='    ██      ░█'
+ _luigiD29='   ██████░░░█'
+_luigiD210='  █████████░░█'
+_luigiD211=' █░░███████░░█'
+_luigiD212='█░░██████  ██'
+_luigiD213=' ██ ███'
+
+_luigiE20=13
+ _luigiE21=' ███  █████'
+ _luigiE22='█   ██L░░░░█'
+ _luigiE23='█  █░░░░░░░░█'
+ _luigiE24=' █░███ █  ███'
+ _luigiE25=' █░    █ ██  █'
+ _luigiE26=' █░   █  ██  █'
+ _luigiE27='  ██████   ██'
+ _luigiE28='  █░      ██'
+ _luigiE29='   █░░░██████'
+_luigiE210='  █░░█████████'
+_luigiE211='  █░░███████░░█'
+_luigiE212='   ██   █████░░█'
+_luigiE213='         ███ ██'
+
 _gompa0[0]=10                                 
  _gompa0[1]="       ████"
  _gompa0[2]="   ██████████"
@@ -2286,6 +2500,22 @@ _coinDraw2[2]="    @@    "
 _coinDraw2[3]="    @@    "
 _coinDraw2[4]="    @@    "
 _coinDraw2[5]="    @@    "
+
+
+case "${1,,}" in # Lendo $1 em lowercase para permitir o usuário escrever Mario, por exemplo.
+"mario")
+	_jogName="mario"
+	;;
+"luigi")
+	_jogName="luigi"
+	;;
+*)
+	echo "O jogo deve ser chamado passando como argumento o personagem desejado."
+	echo -e "\tPor exemplo, para jogar com o Luigi, execute: $0 luigi"
+	exit 0
+	;;
+esac
+	
 
 # Cria o mapa de caracters para o piso
 _piso1='░░░░██░░░░'
