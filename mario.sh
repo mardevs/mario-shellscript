@@ -760,7 +760,7 @@ function DrawJogador {
 	for (( _l=_tmpIni; _l<=_tmpJogHeight; _l++ )); do
 
 		#Pega pŕoxima variável(linha) do desenho do jogador
-		_tmp="_mario${_jogSide}${_jogSprite}[$_l]"
+		_tmp="_${_jogName}${_jogSide}${_jogSprite}[$_l]"
 
 		#Lê o valor da variável como nome de outro variavel
 		_tmp="${!_tmp}"
@@ -1867,6 +1867,8 @@ trap HandleSigInt SIGINT
 
 # Carrega as configurações salva
 . .settings
+
+_jogName="mario"
 
 # Mapa do score no topo da tela
 _scoreTitle0="     MARIO                                   WORLD               TIME           "
