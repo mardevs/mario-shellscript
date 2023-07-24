@@ -1149,8 +1149,15 @@ stty -echo -icanon -icrnl min 0 #time 0
 			#Verifica se velocidade de y é = 0 e se o personagem esta no piso entao libera para pulo
 			if [ $_velocY -eq 0 ] && [ $((_jogY+_jogHeight)) -eq $((_piso)) ]; then
 				Play "jump" #Toca audio do pulo
+				
+				#Pega o nome da variável de pulo do personagem
+				_tmp="_${_jogName}JumpVel"
+
+				#Lê o valor da variável
+				_tmp="${!_tmp}"
+				
 				#_jogSprite=2 #Sprite do jogador pulando
-				((_velocY=-6)) #Define velocidade do pulo
+				((_velocY=-$_tmp)) #Define velocidade do pulo
 			fi
 			;;
 		esac
@@ -2507,6 +2514,8 @@ _coinDraw2[3]="    @@    "
 _coinDraw2[4]="    @@    "
 _coinDraw2[5]="    @@    "
 
+_marioJumpVel=6
+_luigiJumpVel=7
 
 case "${1,,}" in # Lendo $1 em lowercase para permitir o usuário escrever Mario, por exemplo.
 "mario")
